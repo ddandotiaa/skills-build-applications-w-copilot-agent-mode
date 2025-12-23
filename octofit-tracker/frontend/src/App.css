@@ -1,0 +1,113 @@
+
+body {
+  background: linear-gradient(135deg, #f5e9da 0%, #b08d57 100%);
+  color: #4e342e;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Navbar */
+.navbar {
+  background: #795548 !important;
+  border-bottom: 3px solid #a1887f;
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffe0b2 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #6d4c27;
+  font-weight: 700;
+}
+
+/* Tables */
+table {
+  background: #fff8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(160, 136, 127, 0.08);
+}
+th {
+  background: #a1887f;
+  color: #fff;
+}
+td {
+  color: #4e342e;
+}
+tr:nth-child(even) td {
+  background: #f5e9da;
+}
+
+/* Buttons */
+.btn, .btn-primary {
+  background: #8d6e63;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #6d4c41;
+  color: #ffe0b2;
+}
+
+/* Links */
+a, .App-link {
+  color: #a1887f;
+  text-decoration: underline;
+}
+a:hover, .App-link:hover {
+  color: #6d4c27;
+}
+
+/* Cards */
+.card {
+  background: #fff8f0;
+  border: 1px solid #a1887f;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(160, 136, 127, 0.08);
+}
+
+/* Modals */
+.modal-content {
+  background: #fff8f0;
+  border-radius: 10px;
+}
+.modal-header, .modal-footer {
+  background: #a1887f;
+  color: #fff;
+}
+.modal-title {
+  color: #6d4c27;
+}
+
+/* Forms */
+.form-control, .form-select {
+  background: #f5e9da;
+  border: 1px solid #a1887f;
+  color: #4e342e;
+}
+.form-control:focus, .form-select:focus {
+  border-color: #8d6e63;
+  box-shadow: 0 0 0 0.2rem #a1887f33;
+}
+
+/* Utility */
+.mb-4 {
+  margin-bottom: 2rem !important;
+}
